@@ -1,0 +1,68 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8B4513; /* Warna coklat seperti gula aren */
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    color: #FFD700;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #5A2D0C;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: #FFD700;
+    color: #8B4513;
+}
+
+/* Image Styles */
+img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+/* Gallery */
+.gallery img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #5A2D0C;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
